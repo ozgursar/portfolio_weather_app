@@ -34,8 +34,8 @@ const WeatherCard: React.FC = () => {
   useEffect(() => {
     if (city && latitude && longitude) {
       fetchWeather(latitude, longitude)
+      document.title = `${city} | Current Weather Conditions`
     }
-    document.title = `${city} | Current Weather Conditions`
   }, [city])
 
   if (error || locationDataError)
