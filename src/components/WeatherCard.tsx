@@ -19,6 +19,7 @@ const WeatherCard: React.FC = () => {
     event.preventDefault()
     if (formLocation) {
       fetchWeather(0, 0, formLocation)
+      document.title = `${formLocation} | Current Weather Conditions`
       setFormLocation('')
     }
   }
