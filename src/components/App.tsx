@@ -5,8 +5,7 @@ import WeatherCard from './WeatherCard'
 const App = () => {
   return (
     <Provider store={store}>
-      <div>
-        <h1>Weather App</h1>
+      <div className="container">
         <WeatherCard />
       </div>
     </Provider>

@@ -14,7 +14,27 @@ interface FetchWeatherErrorAction {
   payload: string
 }
 
-export type Action = FetchWeatherAction | FetchWeatherSuccessAction | FetchWeatherErrorAction
+interface FetchLocationAction {
+  type: ActionType.FETCH_LOCATION
+}
+
+interface FetchLocationSuccessAction {
+  type: ActionType.FETCH_LOCATION_SUCCESS
+  payload: LocationData
+}
+
+interface FetchLocationErrorAction {
+  type: ActionType.FETCH_LOCATION_ERROR
+  payload: string
+}
+
+export type Action =
+  | FetchWeatherAction
+  | FetchWeatherSuccessAction
+  | FetchWeatherErrorAction
+  | FetchLocationAction
+  | FetchLocationSuccessAction
+  | FetchLocationErrorAction
 
 export interface ApiData {
   data: {
@@ -30,6 +50,7 @@ export interface ApiData {
       temperatureApparent: number
       uvIndex: number
       visibility: number
+      weatherCode: number
       windDirection: number
       windGust: number
       windSpeed: number
@@ -40,4 +61,10 @@ export interface ApiData {
     lon: number
     name?: string
   }
+}
+
+export interface LocationData {
+  city: string
+  latitude: number
+  longitude: number
 }

@@ -1,8 +1,10 @@
 import { combineReducers } from 'redux'
 import weatherDataReducer from './weatherDataReducer'
+import locationReducer from './locationReducer'
 
 const reducers = combineReducers({
-  weatherData: weatherDataReducer
+  weatherData: weatherDataReducer,
+  locationData: locationReducer
 })
 
 export default reducers

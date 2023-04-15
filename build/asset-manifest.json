@@ -1,0 +1,41 @@
+{
+  "files": {
+    "main.css": "./static/css/main.1840f521.css",
+    "main.js": "./static/js/main.cf2b62d6.js",
+    "static/media/background.jpg": "./static/media/background.db119463ad1b0406946a.jpg",
+    "static/media/snow_heavy.svg": "./static/media/snow_heavy.4cffeb673a0a90b500638c827a7f77d8.svg",
+    "static/media/tstorm.svg": "./static/media/tstorm.9e52d5b4150228011d3809479b5b3a54.svg",
+    "static/media/rain_heavy.svg": "./static/media/rain_heavy.a8f45dd6a6cc20f4088bacc19d15c054.svg",
+    "static/media/freezing_rain_heavy.svg": "./static/media/freezing_rain_heavy.18cf8e4c92a46451ee848882a775ced9.svg",
+    "static/media/rain.svg": "./static/media/rain.feacb68d2749d75ccca2f21a569de8c6.svg",
+    "static/media/snow.svg": "./static/media/snow.fffba143419a418d5c576d8e65161515.svg",
+    "static/media/fog.svg": "./static/media/fog.e75170b4eedf934bba20305cc4310926.svg",
+    "static/media/freezing_rain.svg": "./static/media/freezing_rain.42d0c8cfff73e674dc456f08efa2c2ef.svg",
+    "static/media/fog_light.svg": "./static/media/fog_light.1dacf2f677225621c51c876e72ba9999.svg",
+    "static/media/rain_light.svg": "./static/media/rain_light.a893b49489eb2fd8dcbfdc0d84895668.svg",
+    "static/media/snow_light.svg": "./static/media/snow_light.16d9e78bab19a4ea15044fe327f90415.svg",
+    "static/media/freezing_rain_light.svg": "./static/media/freezing_rain_light.994c81a3c01bf0f262ddf7edc7eb2843.svg",
+    "static/media/drizzle.svg": "./static/media/drizzle.9115cb327c5b6d2641bb2260d351d832.svg",
+    "static/media/flurries.svg": "./static/media/flurries.6895fe846df4a02888078aaf53fff630.svg",
+    "static/media/ice_pellets_heavy.svg": "./static/media/ice_pellets_heavy.663170a3f01e3879151491abfa1c01c4.svg",
+    "static/media/cloudy.svg": "./static/media/cloudy.cf1bf27d0d1e3ec3bb88d2bc9531c043.svg",
+    "static/media/freezing_drizzle.svg": "./static/media/freezing_drizzle.6ef1e0d260af9a5cf254ec807fc5f924.svg",
+    "static/media/ice_pellets.svg": "./static/media/ice_pellets.7003982c30f9eb22248767d39a553a74.svg",
+    "static/media/partly_cloudy_day.svg": "./static/media/partly_cloudy_day.a380af6b60dac049b33502c7d70d5d67.svg",
+    "static/media/mostly_clear_day.svg": "./static/media/mostly_clear_day.a06e1cbf55878de8621cbea5abf17da2.svg",
+    "static/media/mostly_cloudy.svg": "./static/media/mostly_cloudy.c4c178c502b4de16b5451d8934eabf3d.svg",
+    "static/media/ice_pellets_light.svg": "./static/media/ice_pellets_light.d3a475d86061682fd4ec22b24b0ecb48.svg",
+    "static/media/weather-snowy-rainy.svg": "./static/media/weather-snowy-rainy.83197239ba8848852d30b40b231464da.svg",
+    "static/media/sun-wireless-outline.svg": "./static/media/sun-wireless-outline.ccfbde872b202b1aa0eac5222feb6ffb.svg",
+    "static/media/weather-windy.svg": "./static/media/weather-windy.9a5e68987c5e27b759b6da154709b1c4.svg",
+    "index.html": "./index.html",
+    "static/media/clear_day.svg": "./static/media/clear_day.ead9013174262c77b562dbf508623135.svg",
+    "static/media/water-percent.svg": "./static/media/water-percent.c77df550c8d11e5f3c9e9e30a23adfe1.svg",
+    "main.1840f521.css.map": "./static/css/main.1840f521.css.map",
+    "main.cf2b62d6.js.map": "./static/js/main.cf2b62d6.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.1840f521.css",
+    "static/js/main.cf2b62d6.js"
+  ]
+}
