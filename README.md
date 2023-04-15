@@ -1,10 +1,10 @@
 # Weather App
-Link: https://ozgursar.github.io/portfolio_weather_app/build/index.html
+Link: https://ozgursar.github.io/portfolio_weather_app/build/
 
 This project is created to establish a well-structured boiler plate code that utilizes React, Redux, Redux Thunk and TypeScript.
 
 ## APIs Utilized
-Weather API: https://tomorrow.io/
+Weather API: https://tomorrow.io/ \
 Geolocation API: https://geolocation-db.com/
 
 ## Available Scripts
