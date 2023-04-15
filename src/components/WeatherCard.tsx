@@ -90,21 +90,17 @@ const WeatherCard: React.FC = () => {
           </span>
         </footer>
         <form className="location-change-form" onSubmit={onSubmit}>
-          <p>Enter location or coordinates to change location</p>
+          <h3>Change Location</h3>
           <div className="form-fields">
-            <div>
-              <input
-                type="text"
-                value={formLocation}
-                placeholder="Location / City"
-                onChange={event => setFormLocation(event.target.value)}
-              />
-            </div>
-            <div>
-              <button type="submit" className="btn">
-                GO
-              </button>
-            </div>
+            <input
+              type="text"
+              value={formLocation}
+              placeholder="Location / City"
+              onChange={event => setFormLocation(event.target.value)}
+            />
+            <button type="submit" className="btn">
+              GO
+            </button>
           </div>
         </form>
       </>
