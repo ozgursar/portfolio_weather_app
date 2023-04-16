@@ -32,7 +32,7 @@ const WeatherCard: React.FC = () => {
   }, [])
 
   useEffect(() => {
-    if (city && latitude && longitude) {
+    if (latitude && longitude) {
       fetchWeather(latitude, longitude)
       document.title = `${city} | Current Weather Conditions`
     }
@@ -50,7 +50,13 @@ const WeatherCard: React.FC = () => {
     return (
       <>
         <div className="weather-card">
-          <h2 className="city">{data.location.name ? data.location.name.split(',')[0] : city}</h2>
+          <h2 className="city">
+            {data.location.name
+              ? data.location.name.split(',')[0]
+              : city
+              ? city
+              : 'Current Location'}
+          </h2>
           <span className="temperature">{Math.ceil(data.data.values.temperature)}</span>
           <WeatherIcon weatherCode={data.data.values.weatherCode} />
           <WeatherCondition weatherCode={data.data.values.weatherCode} />
@@ -76,6 +82,20 @@ const WeatherCard: React.FC = () => {
               itemData={data.data.values.uvIndex}
             />
           </div>
+          <form className="location-change-form" onSubmit={onSubmit}>
+            <h3>Change Location</h3>
+            <div className="form-fields">
+              <input
+                type="text"
+                value={formLocation}
+                placeholder="Location / City"
+                onChange={event => setFormLocation(event.target.value)}
+              />
+              <button type="submit" className="btn">
+                GO
+              </button>
+            </div>
+          </form>
         </div>
         <footer className="credits">
           <span>
@@ -89,20 +109,6 @@ const WeatherCard: React.FC = () => {
             {new Date(data.data.time).toLocaleString('en-AU')}
           </span>
         </footer>
-        <form className="location-change-form" onSubmit={onSubmit}>
-          <h3>Change Location</h3>
-          <div className="form-fields">
-            <input
-              type="text"
-              value={formLocation}
-              placeholder="Location / City"
-              onChange={event => setFormLocation(event.target.value)}
-            />
-            <button type="submit" className="btn">
-              GO
-            </button>
-          </div>
-        </form>
       </>
     )
   return <></>
